@@ -471,14 +471,35 @@ hr{
 
 }
 
+.staff a{
+	margin-right: 22px;
+	margin-top: 22px;
+}
+
 .fellow-worker{
+	display: flex;
 	width: 191px;
 	height: 215px;
 	background-color: #ff3f40;
-	margin-right: 22px;
-	margin-top: 22px;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.fellow-worker p{
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0);
+	padding: 5px 52px 5px 52px;
+	background-color: rgba(122, 120, 110, 0);
 
 }
+
+.fellow-worker:hover p{
+	color: rgba(255, 255, 255, 1);
+	background-color: rgba(0, 0, 0, 1);
+}
+
+
+
 
 .subscription{
 	display: flex;
